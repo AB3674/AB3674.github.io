@@ -24,7 +24,7 @@
                 border-top: 1px dashed #703642;
                 width: 45vw; 
             }
-            img {
+            #polaroid {
                 float: right;
                 height: 90vh; 
             }
@@ -77,6 +77,24 @@
                 color: #1e1e24;
             }
 
+            /* Images */
+
+            div img {
+                transform: none;
+                max-width: 21.5%;
+                max-height: 41vh; 
+                float: left; 
+                margin-left: 20px; 
+                margin-top: 3%;
+            }
+            div {
+                background-color: #47503F;
+                height: 41vh; 
+                width: 100vw; 
+                margin-bottom: 1px; 
+                align-items: center;
+            }
+
             /* Footer */
 
             footer {
@@ -107,7 +125,7 @@
 
         <!--Sisältö-->
         <h2 id="sport">Urheilu</h2>
-        <img src="https://i.ibb.co/485jn6H/hobbies.png" alt="Surffaava tyttö ja rummut" border="0">
+        <img id="polaroid" src="images/hobbies.png" alt="Surffaava tyttö ja rummut">
         <p>
             Rakastan koetella omia ruumiillisia rajojani erilaisten lajien pyörteissä. Jännittävimpiä hetkiä 
             hiessä velloen tarjoaa itsensä puskeminen joko fyysisesti varioivissa olosuhteissa tai henkistä kanttia
@@ -142,6 +160,13 @@
             keikkuen sekä myös itse ohjaten. Vaikka suomalainen elokuvakenttä ei vakuuttanut minua pitkäikäiseen suhteeseen kanssaan, 
             tarjoaa mielikuvituksen julkituominen täysin omanlaisensa maailman, josta en kuitenkaan harrastuksena aio hellittää!
         </p>
+        <br>
+        <div>
+            <a href="images/tennis.png"><img src="images/tennis.png" alt="Tennisvarusteet hiekalla" style="padding-left: 2.75%;"></a>
+            <a href="images/reading.png"><img src="images/reading.png" alt="Hauskan kirjan äärellä"></a>
+            <a href="images/lifting.png"><img src="images/lifting.png" alt="Maastanostamassa kuntosalilla"></a>
+            <a href="images/film.png"><img src="images/film.png" alt="Kameravälineistöä asetelmassa"></a>
+        </div>
     </body>
     
     <!--Alabanneri-->
