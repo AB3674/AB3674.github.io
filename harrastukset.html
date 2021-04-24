@@ -24,7 +24,7 @@
                 border-top: 1px dashed #703642;
                 width: 45vw; 
             }
-            img {
+            #polaroid {
                 float: right;
                 height: 90vh; 
             }
@@ -76,6 +76,24 @@
             a:active{
                 color: #1e1e24;
             }
+            
+            /* Images */
+
+            div img {
+                transform: none;
+                max-width: 21.5%;
+                max-height: 41vh; 
+                float: left; 
+                margin-left: 20px; 
+                margin-top: 3%;
+            }
+            div {
+                background-color: #47503F;
+                height: 41vh; 
+                width: 100vw; 
+                margin-bottom: 1px; 
+                align-items: center;
+            }
 
             /* Footer */
 
@@ -107,7 +125,7 @@
 
         <!--Sisältö-->
         <h2 id="sport">Urheilu</h2>
-        <a href="https://imgbb.com/"><img src="https://i.ibb.co/485jn6H/hobbies.png" alt="hobbies" border="0"></a>
+        <a id="polaroid" href="https://imgbb.com/"><img src="https://i.ibb.co/485jn6H/hobbies.png" alt="hobbies" border="0"></a>
         <p>
             Rakastan koetella omia ruumiillisia rajojani erilaisten lajien pyörteissä. Jännittävimpiä hetkiä 
             hiessä velloen tarjoaa itsensä puskeminen joko fyysisesti varioivissa olosuhteissa tai henkistä kanttia
