@@ -1,0 +1,270 @@
+/*General styles*/
+body {
+  margin: 0 auto;
+  padding: 0; 
+  background-color: #EDEDE8;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #1e1e24;
+}
+p {
+  padding-left: 37.5%; 
+  width: 60%; 
+  font-size: 16px;
+  margin-left: 10px; 
+  margin-top: 2%; 
+}
+img {
+  width: 32.5vw; 
+  max-height: 75vh;
+  float: left;
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
+hr.dashed {
+  border-top: 1px dashed #703642;
+  width: 62.5vw; 
+}
+
+/*Banner*/
+
+.banner {
+  text-align: center;
+  height: 125px; 
+  background-color: #1e1e24;
+  padding-top: 3%; 
+}
+.banner h1 {
+  margin-top: 0; 
+  margin-left: 3%;
+  color: rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+  font-size: 75px;
+}
+
+/* Navigation */
+
+.nav {
+  list-style: none;
+  margin: -16px;
+  width: 100vw; 
+  padding: 0;
+  text-align: center;
+  background-color: #c8c5c2;
+  height: 40px; 
+}  
+.nav li {
+  display:inline;
+}
+.nav a{
+  display: inline-block;
+  padding: 1px;
+  color: #703642;
+  font-size: 16px;
+}
+.nav a:hover {
+  color: #d8887e;
+  text-decoration: underline;
+}
+
+/* Heading styles */
+
+h1 {
+  color: #703642;
+  text-transform: uppercase;
+  font-size: 64px;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color:#47503F; 
+}
+h2:hover {
+  color:#703642;
+}
+h3 {
+  padding-top: 12.5px; 
+  color: #47503F;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h3:hover {
+  color:#f49b90;
+  text-decoration: underline;
+}
+
+/* Link styles*/
+  
+a {
+  color: #47503F;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 10px; 
+  padding-bottom: 2%; 
+}
+a:hover {
+  color: #f49b90;
+  text-decoration: underline;
+}
+a:active{
+  color: #1e1e24;
+}
+#music {
+  letter-spacing: 1.5px;
+}
+
+/* List styles */
+
+#hobbies {
+  text-align: left;
+  display: inline-block;
+  padding-left: 2.5%; 
+  margin-top: -1%;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 30px; 
+  padding-left: 2.5%;
+  width: 100%; 
+  background-color: #1e1e24;
+  text-align: left;
+}
+address {
+  display: block;
+  color: #EDEDE8;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+}
+footer a {
+  color:#f49b90;
+  text-transform: capitalize;
+}
+
+/*Etusivu, spesifit*/
+
+#girl {
+  margin-left: 10px;
+}
+
+/*Portfolio, spesifit*/
+
+#portfolio p {
+  padding-left: 52%; 
+  width: 40vw;  
+  margin-right: 10px;  
+}
+#portfolio hr.dashed {
+  width: 42.5vw; 
+  margin-right: 90px;
+}
+#portfolio img {
+  max-height: 100vh;
+  width: 45vw; 
+  float: left;
+  margin-top: 10%; 
+  margin-bottom: 10px;
+  padding-left: 5px;
+  transform: rotate(320deg);
+}
+#portfolio h1 {
+  font-size: 60px;
+}
+#portfolio .banner h1 {
+  font-size: 75px;
+}
+#portfolio h3 {
+  padding-top: 1px; 
+  color: #47503F;
+  text-transform: uppercase;
+  letter-spacing: 2px;  
+}
+#portfolio h3:hover {
+  color:#703642;
+}
+.year {
+  padding-left: 46%; 
+}
+#portfolio footer {
+  padding-top: 2px; 
+}
+
+/*Harrastukset, spesifit*/
+
+#fun p {
+  width: 40vw; 
+  padding-left: 11%;
+}
+#fun hr.dashed {
+  width: 45vw; 
+}
+#polaroid {
+  float: right;
+  height: 90vh; 
+}
+#fun h1 {
+  font-size: 60px;
+}
+#fun .banner h1 {
+  font-size: 75px;
+}
+#sport {
+  margin-top: 30px;
+  margin-left: -37.5%;
+}
+#fun a {
+  padding-bottom: none; 
+}
+#fun a:hover {
+  color: #d8887e;
+  text-decoration: underline;
+}
+#gallery {
+  background-color: #47503F;
+  height: 37.5vh; 
+  width: 100vw; 
+  margin-bottom: 1px; 
+  align-items: center;
+}
+#gallery img {
+  transform: none;
+  max-width: 21.5%;
+  max-height: 25vh; 
+  float: left; 
+  margin-left: 18px; 
+  margin-top: 3.5%;
+  padding: 1px
+}
+#fun footer {
+  width: 95vw;
+  text-align: right;
+  margin: 0;
+  padding-right: 50px;
+}
+
+/*Taulukko*/
+
+#table table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#table th {
+  padding: 5px;
+  text-align: center; 
+  background-color:#ececec; 
+}
+#table td {
+  padding: 5px;
+  text-align: left;    
+}
+#table #tableheader {
+  background-color: #47503F;
+  color:#fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 200;
+}
