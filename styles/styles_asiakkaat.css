@@ -1,0 +1,32 @@
+body {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+table {
+  border: 1px solid black;
+  margin: 10px; 
+}
+#asiakkaat {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #afc0d4;
+  border: 1px solid #d2d2d2;
+  border-collapse: collapse;
+}
+#asiakkaat th, td {
+  border: 1px solid #fff;
+}
+#asiakkaat th {
+  font-size: 1.2em;
+  color: #FCFAF9;
+  text-shadow: 1.25px 1.25px 4px #1e1e24;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 5px 4px;
+}
+#asiakkaat td {
+  padding: 4px; 
+}
+#asiakkaat tr:nth-child(even) {
+  background-color: #d6e2e9;
+}
