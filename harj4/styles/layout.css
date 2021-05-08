@@ -16,6 +16,7 @@ body {
 #page {
   background-color: #4f5d75;
   margin: 0 auto;
+  border-style: none;
 }
 
 /* Header styles*/
