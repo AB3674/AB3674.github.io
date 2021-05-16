@@ -1,0 +1,138 @@
+/* General styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 100%;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+p {
+  margin: 1.5em 0;
+  line-height: 1.5em;
+}
+#page {
+  max-width: 90%;
+  margin: 0 auto;
+  /*background-color: #59644e;*/
+  height: 100vh;
+}
+
+/* Header styles */
+
+#header {
+  padding: 1em;
+  background-color: #575757;
+  color: #F0EBEB;
+  text-align: center;
+  font-size: 200%;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+/* Navbar & Footer styles */
+
+#nav, #footer {
+  max-height: 1.875em;
+  padding-top: 0.5em;
+  background-color: #E49A2F;
+  color: #F7F5EE;
+  text-align: center;
+}
+#nav {
+  text-transform: uppercase; 
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}  
+li {
+  display: inline-block;
+}
+li a {
+  display: inline-block;
+  margin-top: -2em;
+  padding: 0.5em 1.2em;
+  color: #F7F5EE;
+  text-decoration: none;
+}
+#nav a.active {
+  background-color:#1B5E5E;
+}
+#nav a:hover {
+  background-color: #C77F1A;
+}
+
+/* Content styles */
+
+#content {
+  background-color: #D8CCAF;
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+}
+#content_left, #content_right {
+  width: 42.5%;
+  background-color: #F7F5EE;
+  border: 1px solid #AC9675;
+  margin: 2em 2%;
+  text-align: left;
+  padding: 1rem;
+  border-radius: 6px;
+}
+#content_left {
+  float: left;
+}
+#content_right {
+  float: right;
+  margin-left: 0;
+  margin-top: 2.75em; 
+  padding: 0 auto;
+  padding-bottom: 0.95em;
+  font-size: 0.75em;
+  text-align: center;
+}
+#content_right img{
+  width: 100%;
+  height: auto;
+}
+#content_right p {
+  margin-top: -2.3em; 
+}
+#quote {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  font-size: 0.9em;
+  color: #1e1e24;
+  text-align: center;
+}
+hr {
+  border: #1B5E5E ridge 1px;
+}
+
+@media screen and (max-width: 854px) {
+ #content_left, #content_right {
+   width: 80%;
+   margin-left: 6%;
+   float: left;
+ }
+ #content_right {
+   margin-top: 0; 
+ }
+}
+
+/* Footer styles */
+
+#footer {
+  clear: both;
+  color: #333;
+}
+#footer p {
+  margin: 0;
+  padding-bottom: 0.4em; 
+  font-size: 0.9em;
+}
