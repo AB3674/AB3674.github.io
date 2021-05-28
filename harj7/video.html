@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/media.css">
     <title>Video</title>
+    <style>
+      div {
+        max-width: 640px;
+        max-height: 480px;
+      }
   </head>
   <body>
     <header>Skateboarding</header>
-    <video width="640px" height="480px" controls>
+    <div>
+    <video controls>
       <source src="movie.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p><strong>Video source: </strong><a href="https://www.pexels.com/video/people-playing-skateboard-at-the-playground-5039499/">Cottonbro</a></p>
+    </div>
   </body>
 </html>
