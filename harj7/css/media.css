@@ -21,8 +21,9 @@ header {
 
 /* Video styles */
 
-video {
+iframe {
   margin: 0;
+  margin-top: 10%;
 }
 a:link {
   color: #313715;
