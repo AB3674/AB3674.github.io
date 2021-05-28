@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+  background-color: #e8e8e8;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+header {
+  margin: 1em auto;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 300%;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: 3px 3px #c1bdb3;
+}
+
+/* Video styles */
+
+video {
+  margin: 0;
+}
+a:link {
+  color: #313715;
+}
+a:visited {
+  color: #535d6b;
+}
+a:hover {
+  color: #445c70;
+}
+a:active {
+  color: #3d3b3c;
+}
+
+/* Audio styles*/
+
+audio {
+  margin-top: 1em;
+}
+#audio {
+  background-color: #D2D2C6;
+}
+#audio p {
+  margin-top: 1em;
+}
+
+/* Landing styles */
+
+#menu li {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-top: 0.5em;
+  list-style-type: none;
+}
+#menu li:first-child {
+  margin-top: 3em;
+}
+#menu a {
+  color: #640d14;
+}
+#menu a:hover {
+  color: #44a1a0;
+}
